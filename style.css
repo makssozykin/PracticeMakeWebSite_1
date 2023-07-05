@@ -1,0 +1,23 @@
+.container {
+    width: 1440px;
+    padding: 0 250px;
+}
+.header {
+    background: url('./images/bg.jpg');
+    , lightgray 0px 0px / 100% 100% no-repeat;
+}
+.header-logo {
+    margin-top: 41px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-h-one {
+color: #FFF;
+text-align: center;
+font-size: 60px;
+font-family: BebasNeueBold;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.709px;
+}
