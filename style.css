@@ -152,7 +152,16 @@ margin-bottom: 21px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 2.306px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
 }
 
 .story-box {
@@ -199,6 +208,29 @@ margin-bottom: 21px;
 }
 
 .sides-item {
+    position: relative;
     width: 140px;
     height: 224px;
+}
+.side-text {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+    margin: 0;
+}
+.sides-item:nth-child(1) .side-text {
+    width: 68px;
+}
+.sides-item:nth-child(2) .side-text {
+    width: 110px;
+}
+.sides-item:nth-child(3) .side-text {
+    width: 76px;
 }

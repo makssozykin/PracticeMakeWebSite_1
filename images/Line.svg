@@ -1,0 +1,17 @@
+<svg width="52" height="2" viewBox="0 0 52 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="52" height="2" fill="#F2F2F2"/>
+<g id="Desktop HD" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="2810" transform="translate(-695 -925)" fill="white"/>
+<g id="about" clip-path="url(#clip1_0_1)">
+<path id="Line" d="M1 1H51" stroke="#00A4E5" stroke-width="2" stroke-linecap="square"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="2810" fill="white" transform="translate(-695 -925)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="941" height="344" fill="white" transform="translate(-446 -34)"/>
+</clipPath>
+</defs>
+</svg>
