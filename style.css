@@ -234,3 +234,138 @@ margin-bottom: 21px;
 .sides-item:nth-child(3) .side-text {
     width: 76px;
 }
+
+/**
+  |============================
+  | Services
+  |============================
+*/
+
+.servises {
+    padding-bottom: 115px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 76px;
+}
+
+.service-title-box {
+    display: flex;
+    align-items: center;
+}
+.service-title-box .title-box {
+    margin-right: 155px;
+}
+.title-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: flex-start;
+}
+.title-box .line {
+    margin: 0;
+}
+
+.title-box .title-h-two {
+    width: 200px;
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.service-text {
+    width: 405px;
+    color: #48555B;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+.service-title-box .service-text {
+    margin-right: 32px;
+}
+
+.service-btn {
+    background-color: #00A4E5;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 10px 28px;
+}
+
+.service-list {
+    display: flex;
+    gap: 28px;
+    outline: 1px solid red;
+}
+
+.service-item {
+    width: 250px;
+    padding: 38px 22px;
+    border: 1px solid #E6E6E6;
+}
+.service-item:nth-child(1)::before {
+    display: inline-block;
+    content: "";
+    background-image: url('./images/project.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 66px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+.service-item:nth-child(2)::before {
+    display: inline-block;
+    content: "";
+    background-image: url('./images/structure.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 66px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+.service-item:nth-child(3)::before {
+    display: inline-block;
+    content: "";
+    background-image: url('./images/factory.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 66px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.title-h-three {
+    color: #48555B;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.427px;
+    margin: 0 0 13px 0;
+}
+
+.service-item .about-text {
+    width: 100%;
+}
+
+/**
+  |============================
+  | Get in touch
+  |============================
+*/
+.get-in-touch {
+    padding-top: 120px;
+    padding-bottom: 232px;
+}
