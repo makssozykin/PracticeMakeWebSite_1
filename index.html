@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Konstruct</title>
+    <title>Construct</title>
   </head>
   <body>
     <header class="header">
@@ -49,7 +49,7 @@
           </ul>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-container container">
           <h2 class="title-h-two">OUR STORY</h2>
           <div class="line"></div>
@@ -85,7 +85,7 @@
           </div>
         </div>
       </section>
-      <section class="servises">
+      <section class="servises" id="services">
         <div class="service-container container">
           <div class="service-title-box">
             <div class="title-box">
@@ -97,7 +97,7 @@
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
-            <button class="service-btn">ALL SERVICES</button>
+            <button class="service-btn" type="button">ALL SERVICES</button>
           </div>
           <ul class="service-list list">
             <li class="service-item">
@@ -127,8 +127,145 @@
           </ul>
         </div>
       </section>
-      <section class="get-in-touch"></section>
+      <section class="get-in-touch">
+        <div class="touch-container container">
+          <h2 class="title-h-two">Want to build something amazing?</h2>
+          <button class="service-btn contact-btn" type="button">
+            GET IN TOUCH
+          </button>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="container">
+          <p class="newsletter-text">Newsletter Signup</p>
+          <form class="signup" name="signup" autocomplete="off" validate>
+            <input
+              class="e-mail"
+              type="email"
+              name="email"
+              placeholder="test@youremail.com"
+              required
+            />
+            <button class="signup-btn" type="submit">SIGNUP</button>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-company">
+          <h4 class="title-h-four">Company</h4>
+          <a class="footer-logo-link link" href="./index.html">
+            <svg class="footer-logo" width="101.618px" height="23px">
+              <use href="./images/sprite.svg#icon-projeco-logo"></use>
+            </svg>
+          </a>
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4 class="title-h-four">LINKS</h4>
+          <div class="footer-links-box">
+            <ul class="footer-links-list list">
+              <li class="footer-link-item">
+                <a class="footer-link link" href="./index.html">HOME</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="#about">ABOUT</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="#services">SERVICES</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">PROJECTS</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="#contucts">CONTACT&nbsp;US</a>
+              </li>
+            </ul>
+            <ul class="footer-links-list list">
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">FAQ</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">TERMS</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">CAREERS</a>
+              </li>
+            </ul>
+            <ul class="footer-links-list list">
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">BLOG</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">PARTNERS</a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link link" href="">NEWS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contacts" id="contucts">
+          <h4 class="title-h-four">CONTACT US</h4>
+          <address class="address">
+            <ul class="address-list list">
+              <li class="address-item">
+                <p class="address-text">
+                  213 Baker Street<br />Oriel City Kounty<br />7000 KNW,<br />Country
+                  Name
+                </p>
+              </li>
+              <li class="address-item">
+                <a class="address-link link" href="tel:+239942334022"
+                  >+23 994 233 4022
+                </a>
+              </li>
+              <li class="address-item">
+                <a class="address-link link" href="mailto:info@konstruct.com"
+                  >info@konstruct.com
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="socials">
+          <ul class="socials-list list">
+            <li class="socials-item">
+              <a class="socials-link link" href="https://www.facebook.com/">
+                <svg class="socials-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#icon-facebook-official"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://twitter.com/i/flow/login?redirect_after_login=%2FTwitter"
+              >
+                <svg class="socials-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a class="socials-link link" href="https://www.google.com/">
+                <svg class="socials-icon" width="12" height="12">
+                  <use href="./images/sprite.svg#icon-google"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright container">
+        <p class="copyright-text">
+          © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
