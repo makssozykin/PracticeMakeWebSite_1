@@ -23,7 +23,7 @@ img {
     /* padding: 0 250px; */
     margin-right: auto;
     margin-left: auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 /**
   |============================
@@ -240,7 +240,7 @@ img {
   |============================
 */
 
-.servises {
+.services {
     padding-bottom: 115px;
 }
 
@@ -309,7 +309,7 @@ img {
 .service-list {
     display: flex;
     gap: 28px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .service-item {
@@ -440,6 +440,7 @@ img {
 .signup-btn {
     width: 150px;
     height: 40px;
+    border: 1px solid #00A4E5;
     background-color: #00A4E5;
     color: #FFF;
     text-align: center;
