@@ -92,11 +92,13 @@ img {
   | Navbar
   |============================
 */
+.navbar {
+    border-bottom: 1px solid #E6E6E6;
+}
 .navbar-container {
   display: flex;
   gap: 450px;
   align-items: center;
-  border-bottom: 1px solid #E6E6E6;
 }
 .nav-list {
     display: flex;
@@ -460,12 +462,12 @@ img {
 .footer {
     background-color: #141A20;
     padding-top: 42px;
-    padding-bottom: 40px;
 }
 
 .footer-container {
     display: flex;
     align-items: baseline;
+    margin-bottom: 40px;
 }
 .footer-company {
     display: flex;
